@@ -93,7 +93,18 @@ class demoOfStringOperations{
 	void insertString()
 	{
 		StringBuffer buffer=new StringBuffer("CoreNuts Pvt lTd");
-			
+		System.out.println(buffer.insert(9, "Technologies "));
+	}
+	
+	//program to count repeated characters in a string
+	
+	
+	//write convert from primitive data type values to string
+	void valuesToString()
+	{
+		int value1=10;
+		String stringValue=String.valueOf(value1);
+		System.out.println(stringValue);
 	}
 	
 	
@@ -104,7 +115,7 @@ class demoOfStringOperations{
 public class stringDemo {
 public static void main(String[] args) {
 	demoOfStringOperations demoOfStringOperations=new demoOfStringOperations();
-	//demoOfStringOperations.stringOperations();
+//	demoOfStringOperations.stringOperations();
 //	demoOfStringOperations.substringDemo();
 //	demoOfStringOperations.compareAddress();
 //	demoOfStringOperations.reverseStringDemo();
@@ -112,6 +123,7 @@ public static void main(String[] args) {
 //	demoOfStringOperations.reverseWords();
 //	demoOfStringOperations.tokenizedString();
 //	demoOfStringOperations.bufferDelete();
-	demoOfStringOperations.insertString();
+//	demoOfStringOperations.insertString();
+	demoOfStringOperations.valuesToString();
 }
 }
